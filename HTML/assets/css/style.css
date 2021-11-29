@@ -21,8 +21,10 @@ body{
     margin-bottom: 80px;
 }
 
-.custom-btn{
-    background-color: rgba(0, 96, 114, .4);
+/* Home Page Customs */
+
+.custom-btn-home{
+    background-color: #00607266;
     margin-bottom: 30px;
 }
 .custom-btn:hover{
@@ -44,6 +46,60 @@ body{
     position: absolute;
     top: 100%;
     right: 5%;
+}
+
+/* FAQ Customs */
+.hr-line {
+    width: 62px;
+    position: relative;
+    margin: 15px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.hr-img {
+    position: relative;
+    top: 3px;
+    color: #ff0000;
+}
+#main-body{
+    width: 1000px;
+    margin: auto;
+}
+.custom_accordion_btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    transition: 0.4s;
+}
+.active_btn,
+.custom_accordion_btn:hover {
+    background-color: #ccc;
+}.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.custom-navigation{
+    text-align: center;
+    border-bottom: 2px solid #1D7A8C;
+    padding-bottom: 0;
+}
+.custom-navigation .items{
+    display: inline-block;
+    width: 48%;
+    padding: 10px;
+}
+#item-1{
+    background-color: #1D7A8C;
+    color: white;
+}
+
+/* Custom Backgrounds */
+.bg-custom-blue{
+    background-color: #00607266;
 }
 .bg-custom-danger{
     background-color: #FF7B6D;
