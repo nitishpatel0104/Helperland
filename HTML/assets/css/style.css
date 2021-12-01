@@ -97,6 +97,57 @@ body{
     color: white;
 }
 
+/* Prices Customs */
+#price{
+    width: 550px;
+    margin: auto;
+    background: #000;
+}
+#price .one-time{
+    background-color: #1D7A8C;
+    padding: 10px;
+}
+#price .text-area-box{
+    border: 1px solid #B0C9CE;
+    border-top: 0;
+    margin-top: -10px;
+    padding: 20px 0;
+}
+#price .text-area-box .text-area{
+    width: 300px;
+    text-align: left;
+    margin: auto;
+}
+#price .text-area-box .text-area i{
+    color: #1D7A8C;
+    font-weight: bold;
+}
+
+#extra-services{
+    width: 1140px;
+    margin: auto;
+    border-top: 1px solid #B0C9CE;
+}
+#extra-services .sect .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #B0C9CE;
+    border-radius: 50%;
+    height: 108px;
+    width: 108px;
+}
+#extra-services .sect span{
+    color: #1D7A8C;
+    font-weight: bold;
+}
+#what-we-include{
+    background-color: #F6F6F6;
+}
+#what-we-include .custom_accordion_item{
+    margin-left: -8px;
+}
+
 /* Custom Backgrounds */
 .bg-custom-blue{
     background-color: #00607266;
