@@ -148,6 +148,33 @@ body{
     margin-left: -8px;
 }
 
+
+/* Contact Us Customs */
+#get-in-touch .custom-border-contact{
+    border-top: 1px solid #E1E1E1;
+}
+#get-in-touch form{
+    width: 620px;
+}
+#get-in-touch form textarea{
+    height: 146px;
+}
+#get-in-touch form button{
+    background-color: #1D7A8C;
+    color: white;
+}
+#map .pin{
+    position: absolute;
+    top: 145px;
+    left: 605px;
+}
+
+/* About Us Customs */
+.desc .custom-container-about{
+    width: 982px;
+    margin: auto;
+}
+
 /* Custom Backgrounds */
 .bg-custom-blue{
     background-color: #00607266;
