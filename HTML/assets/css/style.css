@@ -3,6 +3,7 @@ html{
 }
 body{
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 #header::before{ 
@@ -175,6 +176,55 @@ body{
     margin: auto;
 }
 
+/* Become a provider Customs */
+#pro-header{
+    background: url('../img/become-a-pro-banner.png') no-repeat center center/cover;
+    height: 100vh;
+}
+#how_it_works{
+    width: 55%;
+    margin: auto;
+}
+#how_it_works .container .row a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Upcoming Services Customs */
+#upcoming_header{
+    background-color: #525252;
+}
+#upcoming_header .notification{
+   border-left: 1px solid #FFFFFF;
+   padding: 0 15px;
+}
+#upcoming_header .admin{
+   border-left: 1px solid #FFFFFF;
+   padding: 0 15px;
+   color: white;
+}
+#welcome_sec{
+    background-color: #F9F9F9;
+}
+#upcoming_main_Sec .list{
+    background-color: #1D7A8C;
+    color: #FFFFFF;
+    width: 20vw;
+    height: 110vh;
+}
+#upcoming_main_Sec .list hr{
+    width: 100%;
+}
+#upcoming_main_Sec .table{
+    color: #646464;
+}
+#upcoming_main_Sec .table thead{
+    background-color: #F9F9F9;
+}
+#upcoming_main_Sec .table .btn{
+    background-color: #FF6B6B;
+    color: #FFFFFF;
+}
 /* Custom Backgrounds */
 .bg-custom-blue{
     background-color: #00607266;

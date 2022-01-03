@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helperland - Become a Provider</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.icons-1.7.1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ====== Header Start ====== -->
+    <header id="pro-header">
+        <div class="container-fluid d-flex justify-content-between py-2 mb-5">
+            <!-- Logo -->
+            <a class="navbar-brand logo" href="index.html">
+                <img src=" assets/img/logo-large.png" alt="logo">
+            </a>
+            <!-- Logo -->
+            <!-- ====== Navbar Start ====== -->
+            <nav class="navbar navbar-expand-lg">
+                <!-- Mobile Menu -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-expanded="false"><span><i class="bi bi-list"></i></span></button>
+                <!-- Mobile Menu -->
+                <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav d-flex align-items-center">
+                        <li class="nav-item active p-1"><a class="nav-link text-white border border-1 rounded-pill px-3"
+                                href="#">Book a Cleaner</a></li>
+                        <li class="nav-item p-1"><a class="nav-link text-white px-3" href="#">Prices</a></li>
+                        <li class="nav-item p-1"><a class="nav-link text-white px-3" href="#">Our Guarantee</a></li>
+                        <li class="nav-item p-1"><a class="nav-link text-white px-3" href="#">Blog</a></li>
+                        <li class="nav-item p-1"><a class="nav-link text-white px-3" href="#">Contact Us</a></li>
+                        <li class="nav-item p-1"><a class="nav-link text-white border border-1 rounded-pill px-3" href="#">Login</a></li>
+                        <li class="nav-item p-1"><a class="nav-link text-white border border-1 rounded-pill px-3" href="#">Become a helper</a></li>
+                        <li class="nav-item dropdown text-white">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="./assets/img/ic-flag.png" alt="logo"> 
+                            </a>
+                            <ul class="dropdown-menu bg-transparent border-0" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"><img src="./assets/img/ic-flag.png" alt="logo"></a></li>
+                                <li><a class="dropdown-item" href="#"><img src="./assets/img/ic-flag.png" alt="logo"></a></li>
+                                <li><a class="dropdown-item" href="#"><img src="./assets/img/ic-flag.png" alt="logo"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- ====== Navbar End ====== -->
+        </div>
+        <div class="container d-flex justify-content-center pb-5">
+            <button class="btn border border-1 custom-btn-home text-white rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever=""><small>Become a Provider</small></button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Register Now!</h5>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <input type="text" claess="form-control" id="recipient-name1" placeholder="First Name">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" id="recipient-name2" placeholder="Last Name">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" id="recipient-name3" placeholder="Email Address">
+                                </div>
+                                <div class="mb-3">
+                                    <div class="input-group">
+                                        <div class="input-group-text">+46</div>
+                                        <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Mobile Number">
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" id="recipient-name4" placeholder="Password">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" id="recipient-name5" placeholder="Confirm Password">
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            Send me Newsletter from Helperland
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">
+                                            I accept <a href="#" class="text-decoration-none">terms and condition</a> & <a href="#" class="text-decoration-none">Privacy policy</a>
+                                        </label>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary ">Get Started <i class="bi bi-arrow-right"></i></button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center mt-4">
+            <img src="./assets/img/group-18_5.png" alt="arrow_down">
+        </div> 
+    </header>
+    <!-- ====== Header End ====== -->
+
+    <!-- ====== How it Works Start ====== -->
+    <section class="my-4" id="how_it_works">
+        <h3 class="text-center">How it Works</h3>
+        <div class="container mt-5 pt-5">
+            <div class="row">
+                <div class="col d-flex flex-column justify-content-center">
+                    <h4>Register yourself</h4>
+                    <p>Provide your basic information to register yourself as a service provider</p>
+                    <a href="#" class="d-flex align-items-center "><span>Read More</span>&nbsp; <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <img src="./assets/img/group-17_1.png" alt="image">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-start">
+                    <img src="./assets/img/group-17_2.png" alt="image">
+                </div>
+                <div class="col d-flex flex-column justify-content-center">
+                    <h4>Get Service Request</h4>
+                    <p>You will get service request from customers depends on service area and profile.</p>
+                    <a href="#" class="d-flex align-items-center "><span>Read More</span>&nbsp; <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex flex-column justify-content-center">
+                    <h4>Completer Service</h4>
+                    <p>Accept service requests from  your customers and complete your work.</p>
+                    <a href="#" class="d-flex align-items-center "><span>Read More</span>&nbsp; <i class="bi bi-arrow-right"></i></a>
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <img src="./assets/img/group-17_3.png" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== How it Works End ====== -->
+
+    <!-- ====== Footer Start -->
+    <footer class="footer mt-5 bg-custom-black">
+        <div class="container-fluid bg-light pb-5">
+            <div class="d-flex flex-column align-items-center">
+                <div>
+                    <h5>GET OUR NEWSLETTER</h5>
+                </div>
+                <div class="d-flex">
+                    <input type="email" class="rounded-pill px-4 py-1 mx-2" placeholder="YOUR EMAIL">
+                    <button class="btn bg-custom-danger text-white rounded-pill mx-2">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-custom-black pt-4">
+            <div class="row">
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <img src="./assets/img/logo-small.png" alt="logo">
+                </div>
+                <div class="col-8 d-flex align-items-center justify-content-center">
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Testimonial</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">FAQs</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Insurance Policy</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Impressum</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <img src="./assets/img/ic-facebook.png" class="px-2" alt="facebook">
+                    <img src="./assets/img/ic-instagram.png" class="px-2" alt="instagram">
+                </div>
+            </div>
+        </div>
+        <div class="container bg-secondary">
+            <hr>
+        </div>
+        <div class="container d-flex align-items-center justify-content-center pb-3 text-white">
+            &copy;2018 Helperland. All rights reserved. Terms and Conditions | Privacy Policy
+        </div>
+    </footer>
+    <!-- ====== Footer End ====== -->
+</body>
+</html>
