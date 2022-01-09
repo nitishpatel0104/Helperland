@@ -210,7 +210,6 @@ body{
     background-color: #1D7A8C;
     color: #FFFFFF;
     width: 20vw;
-    height: 110vh;
 }
 #upcoming_main_Sec .list hr{
     width: 100%;
@@ -225,6 +224,50 @@ body{
     background-color: #FF6B6B;
     color: #FFFFFF;
 }
+
+/* Service History Customs */
+#service_main_Sec .service_heading span{
+    font-size: 22px;
+    color: #646464;
+}
+#service_main_Sec .service_heading div{
+    font-size: 14px;
+    background-color: #146371;
+    color: #FFFFFF;
+}
+#service_main_Sec .list{
+    background-color: #1D7A8C;
+    color: #FFFFFF;
+    width: 20vw;
+}
+#service_main_Sec .list hr{
+    width: 100%;
+}
+#service_main_Sec .table{
+    color: #646464;
+}
+#service_main_Sec .table thead{
+    background-color: #F9F9F9;
+}
+#service_main_Sec .table b{
+    color: #1D7A8C;
+}
+#service_main_Sec .table .status_com{
+    background-color: #67B644;
+    color: #FFFFFF;
+    text-align: center;
+}
+#service_main_Sec .table .status_can{
+    background-color: #FF6B6B;
+    color: #FFFFFF;
+    text-align: center;
+}
+#service_main_Sec .table .btn{
+    background-color: #6DA9B5;
+    color: #FFFFFF;
+}
+
+
 /* Custom Backgrounds */
 .bg-custom-blue{
     background-color: #00607266;
