@@ -267,6 +267,55 @@ body{
     color: #FFFFFF;
 }
 
+/* User Management Customs */
+#user_mgmt_header{
+    background-color: #1FB6FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+#user_mgmt_sec .list{
+    width: 25vw;
+    color: #646464;
+}
+#user_mgmt_sec .action{
+    background-color: #F2F4F5;
+    color: #646464;
+}
+#user_mgmt_sec .list span{
+    border-bottom: 1px solid #E5E5E5;
+    padding: 8px 5px;
+}
+#user_mgmt_sec table thead{
+    color: #646464;
+}
+#user_mgmt_sec table tbody{
+    background-color: #FFFFFF;
+}
+#user_mgmt_sec .btn-active{
+    background-color: #67B644;
+    color: white;
+    width: 60%;
+    margin: auto;
+}
+#user_mgmt_sec .btn-inactive{
+    background-color: #FF6B6B;
+    color: white;
+    width: 60%;
+    margin: auto;
+}
+#user_mgmt_sec form{
+    border: 2px solid #E1E1E1;
+    padding: 8px 8px 15px 8px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    margin: 15px 0px;
+}
+
+.custom-bgcolor-mgmt{
+    background-color: #1FB6FF;
+}
 
 /* Custom Backgrounds */
 .bg-custom-blue{
