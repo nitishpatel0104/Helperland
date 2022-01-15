@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helperland - Service Request</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.icons-1.7.1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ====== Header Start ====== -->
+    <header id="user_mgmt_header">
+        <div class="container-fluid d-flex justify-content-between">
+            <!-- Logo -->
+            <h3>helperland</h3>
+            <!-- Logo -->
+                <div class="d-flex align-items-center">
+                    <img src="./assets//img/admin-user.png" alt="Admin">&nbsp;&nbsp;
+                    <span>James Smith</span>
+                    <div class="mx-3">
+                        <img src="./assets/img/logout.png" alt="Logout">
+                    </div>
+                </div>
+            </nav>
+            <!-- ====== Navbar End ====== -->
+        </div>
+    </header>
+    <!-- ====== Header End ====== -->
+
+    <!-- Main Section Start -->
+    <section id="service_rqst_sec">
+        <div class="container-fluid d-flex">
+            <div class="d-flex flex-column list">
+                <span>Service Managment</span>
+                <span>Role Managment</span>
+                <span>Coupon Code Managment</span>
+                <span>Escalation Managment</span>
+                <span>Service Request</span>
+                <span>Service Providers</span>
+                <span>User Management</span>
+                <span>Finance Module</span>
+                <span>Zip Code Management</span>
+                <span>Rating Management</span>
+                <span>Inquiry Management</span>
+                <span>Newsletter Management</span>
+                <span>Content Management</span>
+            </div>
+            <div class="container action">
+                <div class="container d-flex justify-content-between align-items-center mt-3">
+                    <span class="fs-5 text-muted"><b>Service Request</b></span>
+                </div>
+                <div class="container">
+                    <form class="row gx-2 gy-2 align-items-center">
+                        <div class="col-sm-2">
+                            <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="Service ID">
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <label class="visually-hidden" for="specificSizeSelect">Preference</label>
+                            <select class="form-select" id="specificSizeSelect">
+                                <option selected>Customers</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-2">
+                            <label class="visually-hidden" for="specificSizeSelect">Preference</label>
+                            <select class="form-select" id="specificSizeSelect">
+                                <option selected>Service Provider</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-2">
+                            <label class="visually-hidden" for="specificSizeSelect">Preference</label>
+                            <select class="form-select" id="specificSizeSelect">
+                                <option selected>Status</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-2">
+                            <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="From Date">
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <label class="visually-hidden" for="specificSizeInputGroupUsername">Username</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="specificSizeInputGroupUsername" placeholder="To Date">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn custom-bgcolor-mgmt text-white">Search</button>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-light">Clear</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="container">
+                    <table class="table table-responsive-md border text-muted">
+                        <thead>
+                            <tr>
+                                <th class="py-2">Service ID <img src="./assets/img/sort.png" alt="img"></th>
+                                <th class="py-2">Service Date <img src="./assets/img/sort.png" alt="img"></th>
+                                <th class="py-2">Customer Details <img src="./assets/img/sort.png" alt="img"></th>
+                                <th class="py-2">Service Provider <img src="./assets/img/sort.png" alt="img"></th>
+                                <th class="py-2">Status <img src="./assets/img/sort.png" alt="img"></th>
+                                <th class="py-2">Actions </th>
+                            </tr>
+                            </thead>
+                        <tbody class="">
+                            <tr class="align-middle">
+                                <td>323436</td>
+                                <td>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/calendar2.png" alt="calender">&nbsp;&nbsp;<span><b>09/04/2018</b></span></div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-14.png" alt="timing">&nbsp;&nbsp;<span>12:00 - 18:00</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">David Bough</div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-15.png" alt="Home">&nbsp;&nbsp;<span>Musterstrabe 5,12345 Bonn</span></div>
+                                </td>
+                                <td></td>
+                                <td class="text-center">
+                                    <div class="btn-new">New</div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-transparent" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-placement="left" data-bs-content="Left popover">
+                                        <b><i class="bi bi-three-dots-vertical"></i></b>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td>323436</td>
+                                <td>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/calendar2.png" alt="calender">&nbsp;&nbsp;<span><b>09/04/2018</b></span></div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-14.png" alt="timing">&nbsp;&nbsp;<span>12:00 - 18:00</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">David Bough</div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-15.png" alt="Home">&nbsp;&nbsp;<span>Musterstrabe 5,12345 Bonn</span></div>
+                                </td>
+                                <td></td>
+                                <td class="text-center">
+                                    <div class="btn-new">New</div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-transparent" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-placement="left" data-bs-content="Left popover">
+                                        <b><i class="bi bi-three-dots-vertical"></i></b>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td>323436</td>
+                                <td>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/calendar2.png" alt="calender">&nbsp;&nbsp;<span><b>09/04/2018</b></span></div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-14.png" alt="timing">&nbsp;&nbsp;<span>12:00 - 18:00</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">David Bough</div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-15.png" alt="Home">&nbsp;&nbsp;<span>Musterstrabe 5,12345 Bonn</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <img src="./assets/img/cap.png" class="border border-2 rounded-circle px-1 py-2" alt="User">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <span>Lyum Watson</span>
+                                            <div class="d-flex">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star2.png" alt="start">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-pending">Pending</div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-transparent" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-placement="left" data-bs-content="Left popover">
+                                        <b><i class="bi bi-three-dots-vertical"></i></b>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td>323436</td>
+                                <td>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/calendar2.png" alt="calender">&nbsp;&nbsp;<span><b>09/04/2018</b></span></div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-14.png" alt="timing">&nbsp;&nbsp;<span>12:00 - 18:00</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">David Bough</div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-15.png" alt="Home">&nbsp;&nbsp;<span>Musterstrabe 5,12345 Bonn</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <img src="./assets/img/cap.png" class="border border-2 rounded-circle px-1 py-2" alt="User">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <span>Lyum Watson</span>
+                                            <div class="d-flex">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star2.png" alt="start">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-pending">Pending</div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-transparent" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-placement="left" data-bs-content="Left popover">
+                                        <b><i class="bi bi-three-dots-vertical"></i></b>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td>323436</td>
+                                <td>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/calendar2.png" alt="calender">&nbsp;&nbsp;<span><b>09/04/2018</b></span></div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-14.png" alt="timing">&nbsp;&nbsp;<span>12:00 - 18:00</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">David Bough</div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-15.png" alt="Home">&nbsp;&nbsp;<span>Musterstrabe 5,12345 Bonn</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <img src="./assets/img/cap.png" class="border border-2 rounded-circle px-1 py-2" alt="User">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <span>Lyum Watson</span>
+                                            <div class="d-flex">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star2.png" alt="start">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-comp">Completed</div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-transparent" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-placement="left" data-bs-content="Left popover">
+                                        <b><i class="bi bi-three-dots-vertical"></i></b>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td>323436</td>
+                                <td>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/calendar2.png" alt="calender">&nbsp;&nbsp;<span><b>09/04/2018</b></span></div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-14.png" alt="timing">&nbsp;&nbsp;<span>12:00 - 18:00</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">David Bough</div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-15.png" alt="Home">&nbsp;&nbsp;<span>Musterstrabe 5,12345 Bonn</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <img src="./assets/img/cap.png" class="border border-2 rounded-circle px-1 py-2" alt="User">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <span>Lyum Watson</span>
+                                            <div class="d-flex">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star2.png" alt="start">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-comp">Completed</div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-transparent" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-placement="left" data-bs-content="Left popover">
+                                        <b><i class="bi bi-three-dots-vertical"></i></b>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td>323436</td>
+                                <td>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/calendar2.png" alt="calender">&nbsp;&nbsp;<span><b>09/04/2018</b></span></div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-14.png" alt="timing">&nbsp;&nbsp;<span>12:00 - 18:00</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">David Bough</div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-15.png" alt="Home">&nbsp;&nbsp;<span>Musterstrabe 5,12345 Bonn</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <img src="./assets/img/cap.png" class="border border-2 rounded-circle px-1 py-2" alt="User">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <span>Lyum Watson</span>
+                                            <div class="d-flex">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star2.png" alt="start">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-cancel">Canceled</div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-transparent" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-placement="left" data-bs-content="Left popover">
+                                        <b><i class="bi bi-three-dots-vertical"></i></b>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td>323436</td>
+                                <td>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/calendar2.png"
+                                            alt="calender">&nbsp;&nbsp;<span><b>09/04/2018</b></span></div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-14.png" alt="timing">&nbsp;&nbsp;<span>12:00
+                                            - 18:00</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">David Bough</div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-15.png"
+                                            alt="Home">&nbsp;&nbsp;<span>Musterstrabe 5,12345 Bonn</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <img src="./assets/img/cap.png" class="border border-2 rounded-circle px-1 py-2" alt="User">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <span>Lyum Watson</span>
+                                            <div class="d-flex">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star2.png" alt="start">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-comp">Completed</div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-transparent" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-placement="left" data-bs-content="Left popover">
+                                        <b><i class="bi bi-three-dots-vertical"></i></b>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr class="align-middle">
+                                <td>323436</td>
+                                <td>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/calendar2.png"
+                                            alt="calender">&nbsp;&nbsp;<span><b>09/04/2018</b></span></div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-14.png" alt="timing">&nbsp;&nbsp;<span>12:00
+                                            - 18:00</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">David Bough</div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-15.png"
+                                            alt="Home">&nbsp;&nbsp;<span>Musterstrabe 5,12345 Bonn</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <img src="./assets/img/cap.png" class="border border-2 rounded-circle px-1 py-2" alt="User">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <span>Lyum Watson</span>
+                                            <div class="d-flex">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star2.png" alt="start">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-cancel">Canceled</div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-transparent" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-placement="left" data-bs-content="Left popover">
+                                        <b><i class="bi bi-three-dots-vertical"></i></b>
+                                    </button>
+                                </td>
+                            </tr><tr class="align-middle">
+                                <td>323436</td>
+                                <td>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/calendar2.png"
+                                            alt="calender">&nbsp;&nbsp;<span><b>09/04/2018</b></span></div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-14.png" alt="timing">&nbsp;&nbsp;<span>12:00
+                                            - 18:00</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">David Bough</div>
+                                    <div class="d-flex align-items-center"><img src="./assets/img/layer-15.png"
+                                            alt="Home">&nbsp;&nbsp;<span>Musterstrabe 5,12345 Bonn</span></div>
+                                </td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <img src="./assets/img/cap.png" class="border border-2 rounded-circle px-1 py-2" alt="User">
+                                        </div>
+                                        <div class="d-flex flex-column">
+                                            <span>Lyum Watson</span>
+                                            <div class="d-flex">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star1.png" alt="start">
+                                                <img src="./assets/img/star2.png" alt="start">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <div class="btn-comp">Completed</div>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-transparent" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-placement="left" data-bs-content="Left popover">
+                                        <b><i class="bi bi-three-dots-vertical"></i></b>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="8">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="row d-flex align-items-center">
+                                            <div class="col-auto">
+                                                <span>Show</span>
+                                            </div>
+                                            <div class="col-auto">
+                                                <select class="form-select " aria-label="Default select example">
+                                                    <option selected>10</option>
+                                                    <option value="1">50</option>
+                                                    <option value="2">100</option>
+                                                    <option value="3">200</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-auto">
+                                                <span class="col-auto">Entries</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <nav aria-label="Page navigation example">
+                                                <ul class="pagination">
+                                                    <li class="page-item">
+                                                        <a class="page-link text-muted" href="#" aria-label="Previous">
+                                                            <span aria-hidden="true"><i class="bi bi-caret-left-fill"></i></span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="page-item"><a class="page-link text-muted" href="#">1</a></li>
+                                                    <li class="page-item"><a class="page-link text-muted" href="#">2</a></li>
+                                                    <li class="page-item"><a class="page-link text-muted" href="#">3</a></li>
+                                                    <li class="page-item"><a class="page-link text-muted" href="#">4</a></li>
+                                                    <li class="page-item"><a class="page-link text-muted" href="#">5</a></li>
+                                                    <li class="page-item">
+                                                        <a class="page-link text-muted" href="#" aria-label="Next">
+                                                            <span aria-hidden="true"><i class="bi bi-caret-right-fill"></i>;</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mb-2">
+                    <span>&copy;2018 Helperland. All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main Section End -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

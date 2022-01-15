@@ -313,6 +313,57 @@ body{
     margin: 15px 0px;
 }
 
+/* Service Request Customs */
+#service_rqst_sec .list{
+    width: 25vw;
+    color: #646464;
+}
+#service_rqst_sec .action{
+    background-color: #F2F4F5;
+    color: #646464;
+}
+#service_rqst_sec .list span{
+    border-bottom: 1px solid #E5E5E5;
+    padding: 8px 5px;
+}
+#service_rqst_sec table thead{
+    color: #646464;
+}
+#service_rqst_sec table tbody{
+    background-color: #FFFFFF;
+}
+#service_rqst_sec .btn-new{
+    background-color: #F2BB37;
+    color: white;
+    width: auto;
+    margin: auto;
+}
+#service_rqst_sec .btn-pending{
+    background-color: #1FB6FF;
+    color: white;
+    width: auto;
+    margin: auto;
+}
+#service_rqst_sec .btn-comp{
+    background-color: #67B644;
+    color: white;
+    width: auto;
+    margin: auto;
+}
+#service_rqst_sec .btn-cancel{
+    background-color: #FF6B6B;
+    color: white;
+    width: auto;
+    margin: auto;
+}
+#service_rqst_sec form{
+    border: 2px solid #E1E1E1;
+    padding: 8px 8px 15px 8px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    margin: 15px 0px;
+}
+
 .custom-bgcolor-mgmt{
     background-color: #1FB6FF;
 }
